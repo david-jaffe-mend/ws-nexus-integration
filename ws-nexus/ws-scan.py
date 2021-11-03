@@ -87,6 +87,7 @@ class Configuration:
                                             'WS_PRODUCTNAME': self.product_name,
                                             'WS_WSS_URL': self.ws_url,
                                             'WS_INCLUDES': '**/*.*',
+                                            'WS_EXCLUDES': "**/*sources.jar,**/*javadoc.jar",
                                             'WS_CHECKPOLICIES': self.policies,
                                             'WS_FORCECHECKALLDEPENDENCIES': self.policies,
                                             'WS_OFFLINE': UA_OFFLINE_MODE,
